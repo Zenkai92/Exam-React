@@ -46,7 +46,7 @@
 .loader-icon {
   width: 100px;
   height: 100px;
-  background-image: url('path/to/superhero-logo.png'); /* Remplacez par le chemin de votre logo */
+  background-image: url('../../../public/LogoLoader.png'); /* Remplacez par le chemin de votre logo */
   background-size: cover;
   animation: spin 2s linear infinite;
 }

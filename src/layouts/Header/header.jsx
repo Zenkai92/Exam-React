@@ -16,7 +16,7 @@ export default function Header() {
             <div className="header__left">
                 {displayName !== "Accueil" && (
                     <a onClick={handleGoBack}>
-                        <img className="header__arrowToLeft" src="./Fleche.png" alt="Retour" />
+                        <img className="header__arrowToLeft" src="./LogoSuperman.png" alt="Retour" />
                     </a>
                 )}
                 <div className="header__text">
