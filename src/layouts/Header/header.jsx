@@ -25,7 +25,7 @@ export default function Header() {
                 </div>
             </div>
             <a href="/">
-            <img className="header__logo" src="LogoJL.png" alt="Logo Justice League" />
+            <img className="header__logo" src="LogoJL.webp" alt="Logo Justice League" />
             </a>
         </div>
     );
