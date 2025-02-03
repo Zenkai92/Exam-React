@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div>
             <Link to = "/Gallery">
-                <button>Voir la galerie</button>
+                <button>Voir l encyclopédie</button>
             </Link>
             <Link to = "/Contact">
                 <button>Nous serons ravis de répondre a vos question</button>

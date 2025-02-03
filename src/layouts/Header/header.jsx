@@ -21,7 +21,7 @@ export default function Header() {
                 )}
                 <div className="header__text">
                     <h1 className="header__title">Justice Gallery {displayName}</h1>
-                    <p>Bienvenue sur plus grande galerie de-super héros</p>
+                    <p>Bienvenue sur plus grande encyclopédie de super héros</p>
                 </div>
             </div>
             <a href="/">

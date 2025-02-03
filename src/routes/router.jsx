@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router";
 import Home from "../pages/Home";
 //import Contact from "../components/Contact/Contact";
-//import FetchPokemon from "../components/FetchPokemon/FetchPokemon";
+import FetchHero from "../components/FetchHero/FetchHero";
 import { AuthProvider } from "../auth/AuthProvider";
 import PrivateRoute from "../auth/PrivateRoute";
-//import Page404 from "../components/Page404/Page404";
+//import Error404 from "../components/Error404/Error404";
 
 export default function Router() {
   return (
@@ -18,8 +18,14 @@ export default function Router() {
             </PrivateRoute>
           }
         />
-
-        
+        <Route
+          path="/Encyclopedia"
+          element={
+            <PrivateRoute>
+              <FetchHero />
+            </PrivateRoute>
+          }
+        />
       </Routes>
     </AuthProvider>
   );
