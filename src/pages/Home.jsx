@@ -7,12 +7,13 @@ export default function Home() {
     return (
         <div>
             {user ? (
-                <>Bienvenue {user.username}
+                <><h1>Bienvenue {user.username}</h1><br/>
                 <Logout/>
                 </>
                ):(
                 <Login/>
                )}
+            <h3>Bienvenue sur notre encyclopédie héroique</h3>
             <Link to = "/Encyclopedia">
                 <button>Voir l encyclopédie</button>
             </Link>
