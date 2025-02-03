@@ -12,8 +12,8 @@ function Login() {
     };
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type="text"  placeholder="Identifiant" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <input type="password" placeholder="Mot de passe" value={password} onChange={(e) => setPassword(e.target.value)} />
             <button type="submit">Se connecter</button>
         </form>
     );
