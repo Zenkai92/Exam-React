@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router";
 import "./Error404.scss";
 
-export default function Page404() {
+export default function Error404() {
   const navigate = useNavigate();
 
   useEffect(() => {
